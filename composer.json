@@ -1,6 +1,6 @@
 {
     "name": "spykapps/theme-aberdeen",
-    "description": "A premium Filament theme with refined aesthetics, tight spacing, and Laravel-red accents.",
+    "description": "A premium Filament theme with refined aesthetics, tight spacing, and Brand New Filament warm-amber accents.",
     "keywords": [
         "filament",
         "filament-plugin",
@@ -10,10 +10,10 @@
         "aberdeen"
     ],
     "homepage": "https://spykapps.com/theme-aberdeen",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
-            "name": "SpyKapps",
+            "name": "Spykapps",
             "email": "hello@spykapps.com"
         }
     ],
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "ThemeAberdeenServiceProvider"
+              "SpyApp\\ThemeAberdeen\\ThemeAberdeenServiceProvider"
             ]
         }
     },
